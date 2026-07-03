@@ -7,7 +7,7 @@ cask "relay" do
   desc "Terminale macOS nativo agent-aware"
   homepage "https://github.com/essedev/relay"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Relay.app"
 
