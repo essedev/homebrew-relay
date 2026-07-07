@@ -12,7 +12,7 @@ cask "relay" do
   app "Relay.app"
 
   # Rimuove la quarantena dopo l'install: niente warning Gatekeeper "app non verificata"
-  # (Relay non e notarizzato). Bypassa il controllo solo per Relay.
+  # (Relay non è notarizzato). Bypassa il controllo solo per Relay.
   postflight do
     system_command "/usr/bin/xattr",
                    args: ["-cr", "#{appdir}/Relay.app"]
