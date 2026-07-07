@@ -4,7 +4,7 @@ cask "relay" do
 
   url "https://github.com/essedev/relay/releases/download/v#{version}/Relay-#{version}.dmg"
   name "Relay"
-  desc "Terminale macOS nativo agent-aware"
+  desc "Agent-aware native macOS terminal"
   homepage "https://github.com/essedev/relay"
 
   depends_on macos: :sonoma
