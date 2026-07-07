@@ -1,24 +1,24 @@
 # homebrew-relay
 
-Homebrew tap per [Relay](https://github.com/essedev/relay), terminale macOS nativo agent-aware.
+Homebrew tap for [Relay](https://github.com/essedev/relay), an agent-aware native macOS terminal.
 
-## Installazione
+## Install
 
 ```sh
 brew install --cask essedev/relay/relay
 ```
 
-(auto-tappa; equivale a `brew tap essedev/relay && brew install --cask relay`.)
+(Auto-taps; equivalent to `brew tap essedev/relay && brew install --cask relay`.)
 
-## Aggiornamento
+## Update
 
 ```sh
 brew update && brew upgrade --cask relay
 ```
 
-## Nota primo avvio
+## First launch note
 
-L'app non è distribuita con Developer ID Apple. Al primo avvio macOS la blocca:
-apri **Impostazioni di Sistema > Privacy e Sicurezza** e premi **Apri comunque**.
+The app is not distributed with an Apple Developer ID. On first launch macOS blocks it:
+open **System Settings > Privacy & Security** and click **Open Anyway**.
 
-Il cask viene aggiornato automaticamente a ogni release di Relay.
+The cask is updated automatically on every Relay release.
