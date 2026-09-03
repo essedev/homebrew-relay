@@ -1,6 +1,6 @@
 cask "relay" do
-  version "0.16.2"
-  sha256 "bb136eceb642c2451c4db19a68e2e5445433bced5983c94ade7adaa53067d2ab"
+  version "0.17.0"
+  sha256 "dc3279299980da2f95e7442a714705906258d7c37307028134ff225cf715cb23"
 
   url "https://github.com/essedev/relay/releases/download/v#{version}/Relay-#{version}.dmg"
   name "Relay"
