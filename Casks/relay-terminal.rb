@@ -1,4 +1,4 @@
-cask "relay" do
+cask "relay-terminal" do
   version "0.18.0"
   sha256 "545a11a97c14bc8254c11b2627e81b3f4a9326d00162916b2fd16615085dfa10"
 
