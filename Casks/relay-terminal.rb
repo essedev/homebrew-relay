@@ -1,13 +1,13 @@
 cask "relay-terminal" do
-  version "0.24.0"
-  sha256 "aa63457441f8db4acc6e81744261063172cbf7fd9d72aefcc23c38c79d831f43"
+  version "0.25.0"
+  sha256 "813a0e74d59bb94f513295406a19619eae27b0a0eb152191535b210844639521"
 
   url "https://github.com/essedev/relay/releases/download/v#{version}/Relay-#{version}.dmg"
   name "Relay"
   desc "Agent-aware terminal for running coding agents in parallel"
   homepage "https://github.com/essedev/relay"
 
-  depends_on macos: :sonoma
+  depends_on macos: :sequoia
 
   # I due eseguibili vivono dentro il bundle (Relay.app/Contents/MacOS). Senza i symlink
   # `relay-cli hooks setup` e `relay --demo`, documentati nel README, non sarebbero raggiungibili
